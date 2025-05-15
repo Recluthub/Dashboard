@@ -1,0 +1,73 @@
+{
+  "name": "techwind",
+  "version": "3.0.0",
+  "description": "Techwind - Tailwind Vue Js Multipurpose Landing & Admin Dashboard Template",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@fullcalendar/vue3": "^6.1.15",
+    "@tailwindcss/cli": "^4.0.13",
+    "core-js": "^3.8.3",
+    "feather-icons": "^4.29.1",
+    "install": "^0.13.0",
+    "npm": "^10.5.2",
+    "ol": "^9.1.0",
+    "quill": "^2.0.3",
+    "simplebar": "^6.3.0",
+    "tailwindcss": "^4.0.13",
+    "tiny-slider": "^2.9.4",
+    "tradingview-widget": "^0.0.1",
+    "v-click-outside": "^3.2.0",
+    "vue": "^3.5.3",
+    "vue-countup-v3": "^1.4.2",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-mapbox-ts": "^0.9.10",
+    "vue-router": "^4.4.3",
+    "vue-tradingview-widgets": "^1.2.4",
+    "vue3-apexcharts": "^1.6.0",
+    "vue3-google-map": "^0.20.0",
+    "vue3-quill": "^0.3.1",
+    "vue3-smooth-scroll": "^0.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/plugin-transform-class-static-block": "^7.26.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
